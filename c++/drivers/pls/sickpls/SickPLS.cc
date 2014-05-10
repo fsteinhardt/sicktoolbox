@@ -14,7 +14,7 @@
  */
 
 /* Auto-generated header */
-#include "SickConfig.hh"
+#include <sicktoolbox/SickConfig.hh>
 
 /* Implementation dependencies */
 #include <sstream>
@@ -23,11 +23,11 @@
 #include <sys/ioctl.h>
 #include <signal.h>
 
-#include "SickPLS.hh"
-#include "SickPLSMessage.hh"
-#include "SickPLSBufferMonitor.hh"
-#include "SickPLSUtility.hh"
-#include "SickException.hh"
+#include <sicktoolbox/SickPLS.hh>
+#include <sicktoolbox/SickPLSMessage.hh>
+#include <sicktoolbox/SickPLSBufferMonitor.hh>
+#include <sicktoolbox/SickPLSUtility.hh>
+#include <sicktoolbox/SickException.hh>
 
 #ifdef HAVE_LINUX_SERIAL_H
 #include <linux/serial.h>

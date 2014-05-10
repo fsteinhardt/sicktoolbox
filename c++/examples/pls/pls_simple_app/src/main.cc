@@ -13,9 +13,10 @@
  * See http://sicktoolbox.sourceforge.net
  */
 
+#include <stdlib.h>
 #include <string>
 #include <iostream>
-#include <sickpls/SickPLS.hh>
+#include <sicktoolbox/SickPLS.hh>
 
 using namespace std;
 using namespace SickToolbox;
